@@ -1,0 +1,55 @@
+.cp-todo-item{
+  .list-item{
+    display: flex;
+    margin: 0 20px;
+    padding: 20px 0;
+    border-bottom: 1PX solid #ccc;
+    justify-content: space-between;
+    align-items: center;
+    .check-val{
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      flex: 1;
+    }
+    .check-val-done{
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      flex: 1;
+      text-decoration-line: line-through;
+      color: #999; 
+    }
+    .item-value{
+      display: inline-block;
+      vertical-align: baseline;
+      width: 500px;
+      line-height: 74px;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap
+    }
+    .edit-input{
+      padding: 0 20px;
+      border: 1PX solid #ccc;
+      height: 74px;
+      line-height: 74px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      flex: 1;
+    }
+    .item-right{
+      width: 100px;
+      text-align: right;
+    }
+    .item-btn{
+      box-sizing: border-box;
+      padding: 0;
+      width: 80px;
+      text-align: center;
+      line-height: 1.6;
+      margin-left: 10px;
+      border-radius: 8px;
+    }
+  }
+}

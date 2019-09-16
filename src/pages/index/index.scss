@@ -1,0 +1,49 @@
+.pg-todo-list{
+  padding: 50px 0;
+  .todo-view{
+    display: flex;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    .todo-input{
+      flex: 1;
+      padding: 0 20px;
+      border: 1PX solid #ccc;
+      height: 80px;
+      line-height: 80px;
+      box-sizing: border-box;
+      border-radius: 10px;
+    }
+  }
+  .todo-list{
+    .list-title{
+      margin: 0 20px;
+      font-size: 28px;
+      padding: 20px 0 10px;
+      border-bottom: 1PX solid #ccc;
+    }
+    .list-checkbox{
+      margin-right: 8px;
+      color: #666;
+    }
+    .todo-footer{
+      margin-top: -1PX;
+      padding: 20px;
+      background: #f4fce8;
+      font-size: 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #333;
+      .num-left{
+        color: #333;
+        flex: 1;
+        line-height: 2;
+      }
+      .clear-all-btn{
+        text-align: right;
+        padding: 0 10px;
+        font-size: 28px;
+      }
+    }
+  }
+}
